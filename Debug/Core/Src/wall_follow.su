@@ -1,0 +1,9 @@
+../Core/Src/wall_follow.c:16:7:select_target	48	static
+../Core/Src/wall_follow.c:58:9:any_walls_detected	24	static
+../Core/Src/wall_follow.c:76:9:need_escaping	32	static
+../Core/Src/wall_follow.c:85:6:widest_laser_pair	24	static
+../Core/Src/wall_follow.c:105:6:on_single_detection	40	static
+../Core/Src/wall_follow.c:112:6:on_multiple_detections	104	static
+../Core/Src/wall_follow.c:178:6:on_escape	16	static
+../Core/Src/wall_follow.c:192:6:auto_controls	32	static
+../Core/Src/wall_follow.c:246:6:auto_controls_init	24	static
