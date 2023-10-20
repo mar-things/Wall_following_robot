@@ -1,0 +1,3 @@
+../Core/Src/motor.c:11:19:motor_init	2
+../Core/Src/motor.c:26:19:motor_deinit	2
+../Core/Src/motor.c:36:6:motor_set_speed	14

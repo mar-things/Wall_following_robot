@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -60,8 +60,8 @@ all: main-build
 main-build: wall_follower_base.elf secondary-outputs
 
 # Tool invocations
-wall_follower_base.elf wall_follower_base.map: $(OBJS) $(USER_OBJS) D:\DEV\Projects\wall_follower\wall_follower_base\STM32G030C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "wall_follower_base.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"D:\DEV\Projects\wall_follower\wall_follower_base\STM32G030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="wall_follower_base.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+wall_follower_base.elf wall_follower_base.map: $(OBJS) $(USER_OBJS) /home/martin/Desktop/Mobile\ Robots/Car_program/STM32G030C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "wall_follower_base.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/martin/Desktop/Mobile Robots/Car_program/STM32G030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="wall_follower_base.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

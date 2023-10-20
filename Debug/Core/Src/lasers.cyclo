@@ -1,0 +1,4 @@
+../Core/Src/lasers.c:8:6:lasers_offset	3
+../Core/Src/lasers.c:22:6:lasers_deinit	1
+../Core/Src/lasers.c:34:9:lasers_init	23
+../Core/Src/lasers.c:166:19:lasers_read	3

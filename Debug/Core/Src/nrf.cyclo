@@ -1,0 +1,8 @@
+../Core/Src/nrf.c:15:19:nrf_init	1
+../Core/Src/nrf.c:21:19:nrf_write	3
+../Core/Src/nrf.c:37:9:nrf_available	1
+../Core/Src/nrf.c:42:16:nrf_rx_buffer	1
+../Core/Src/nrf.c:48:6:HAL_UART_RxCpltCallback	2
+../Core/Src/nrf.c:56:6:HAL_UART_TxCpltCallback	2
+../Core/Src/nrf.c:64:9:nrf_timeout	2
+../Core/Src/nrf.c:72:6:nrf_update_heartbeat	1
